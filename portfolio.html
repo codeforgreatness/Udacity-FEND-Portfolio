@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="styesheet" type="text/css">
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+		<script type="text/javascript" src="scripts/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-responsive profile-photo" src="images/profile.jpg" alt="profile picture of me">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="text-thin profile-name">Nathan Friedman</h1>
+					<h4>Front-end Developer</h4>
+				</div>
+			</div>
+			<div class="row">
+				<hr>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="images/patio.jpg" alt="landscape photo of my patio">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center text-uppercase">
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/Mushy.jpg" alt="photo of my cat Mushkila" data-toggle="modal" data-target="#project1">
+					<h3>Pets</h3>
+					<p><a href="http://github.com/codeforgreatness">Link to project</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/steps.jpg" alt="photo of my step counter at 10,485" data-toggle="modal" data-target="#project2">
+					<h3>Fitness</h3>
+					<p><a href="http://github.com/codeforgreatness">Link to project</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/boots.jpg" alt="photo of my army boots" data-toggle="modal" data-target="#project3">
+					<h3>Military</h3>
+					<p><a href="http://github.com/codeforgreatness">Link to project</a></p>
+				</div>
+			</div>
+		</div>
+		<!--Modals-->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+			<div class="modal=dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id ="myModalLabel1">Mushkila</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/Mushy.jpg" alt="photo of my cat Mushkila">
+						<p>This is my cat Mushkila.  She is a seven year-old tuxedo tabby.  Her name Mushkila is Arabic and translates to "trouble" or "problem".  She never fails to live up to her name!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+			<div class="modal=dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id ="myModalLabel2">Working Out</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/steps.jpg" alt="photo of my step counter at 10,485">
+						<p>Getting back in shape and being active is a daily struggle.  It is especially difficult when pursuing a career in IT.  However the effects it has on one's mental health, analytical thinking, and creative thinking cannot be ignored.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+			<div class="modal=dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id ="myModalLabel3">Army Veteran</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/boots.jpg" alt="photo of my army boots">
+						<p>I am an Army veteran.  It seems like a lifetime ago, but serving in the military was without a doubt the most important part of my 20's.  My job was a combat medic.  I learned invaluable lessons about teamwork, respect, sacrifice, and determination.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

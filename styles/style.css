@@ -1,0 +1,50 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+a {
+	padding: 1.5em;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+img {
+	padding: 10px;
+}
+
+@media screen and (min-width: 960px) {
+	.container-fluid {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.profile-name {
+	font-size: 44px;
+}
+
+.profile-photo {
+	margin-top: 20px;
+	max-width: 110px;
+	max-height: 110px;
+}
